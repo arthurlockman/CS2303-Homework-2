@@ -11,16 +11,28 @@
     @param a Array to print
     @param num_elements Number of elements in the array
 */
+void print_int_array(int a[], int num_elements)
+{
+    int i; // Loop counter
 
-void print_int_array(int a[], int num_elements) {
-  int i; // Loop counter
-
-  for (i = 0; i < num_elements; i++) {
-    printf("%d\n", a[i]);
-  }
+    for (i = 0; i < num_elements; i++)
+    {
+        printf("%d\n", a[i]);
+    }
 }
 
-void print_double_array(double a[], int num_elements) {
-	// TODO: Fill in with code.
+/**
+ * @brief Prints an array of doubles, one per line.
+ *
+ * @param a[] The array to print.
+ * @param num_elements The number of elements in a[].
+ */
+void print_double_array(double a[], int num_elements)
+{
+    int i;
+    for (i = 0; i < num_elements; i++)
+    {
+        printf("%f\n", a[i]);
+    }
 }
 
