@@ -4,8 +4,15 @@
 #include <stdio.h>
 
 
-/** Main program for demonstrating arrays. It fills them and prints them.
- * @return 0, Indicating success.
+/** 
+ * @brief The main function of at2. It ingests an array of integers
+ * of any size from the command line, prints them, then sorts them. 
+ * It then prints the sorted array.
+ * 
+ * @param argc Count of arguments.
+ * @param argv[] Program arguments
+ * 
+ * @return 0 if success, 1 if failure.
  */
 int main(int argc, const char* argv[])
 {
