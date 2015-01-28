@@ -30,5 +30,5 @@ clean:
 docs:
 	doxygen
 	chmod 755 -R html
-	cp -r -p html ~/public_html/cs2303assig2/
+	cp -r -p html ~/public_html/cs2303assig2
 
