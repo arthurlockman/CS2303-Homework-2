@@ -4,7 +4,6 @@
  * Functions for printing arrays.
  */
 
-#include <stdio.h>
 #include "print_arrays.h"
 
 /** Print an array of ints, one per line.
@@ -34,5 +33,25 @@ void print_double_array(double a[], int num_elements)
     {
         printf("%f\n", a[i]);
     }
+}
+
+/**
+ * @brief Ingests an array of integers from the command line. It takes
+ * in an array from argv and ingests it into an input array.
+ *
+ * @param args[] The array created in argv in the main loop.
+ * @param size The size of the input array.
+ * @param dest[] The array to put the new values in.
+ *
+ * @return 0 if successful, 1 if out of bounds.
+ */
+int ingest_array(const char* args[], size_t size, int dest[])
+{
+    int i;
+    for (i = 1; i <= size; i++)
+    {
+        dest[i - 1] = atoi(args[i]);
+    }
+    return 0;
 }
 
