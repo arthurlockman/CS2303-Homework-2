@@ -5,7 +5,7 @@ void bubble_sort(int unsorted[], size_t size)
     int i, j;
     for (j = size; j > 0; j--)
     {
-        for (i = 1; i <= j; i++)
+        for (i = 1; i < j; i++)
         {
             if (unsorted[i] < unsorted[i - 1])
             {
