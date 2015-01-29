@@ -17,6 +17,10 @@ int main(void)
     srand((int)time(0));
     int test[20];
     generate_rand_array(test, -10, 100, 20);
+    printf("Unsorted array:\n");
+    print_int_array(test, 20);
+    printf("Sorted array:\n");
+    bubble_sort(test, 20);
     print_int_array(test, 20);
     return 0;
 }
