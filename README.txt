@@ -16,7 +16,7 @@ To make the documentation and move it into the WPI CCC public_html folder, type 
 
 ##Executables
 ###at
-This program creates an array of ten consecutive integers and prints the array to the command line. To call it, simply call the following:
+This program creates an array of ten consecutive integers and doubles and prints the array to the command line. To call it, simply call the following:
 
 	./at
 
@@ -33,6 +33,16 @@ Running the program will produce the following output:
 	7
 	8
 	9
+    0.000000
+    1.000000
+    2.000000
+    3.000000
+    4.000000
+    5.000000
+    6.000000
+    7.000000
+    8.000000
+    9.000000
 
 ###at2
 This program ingests an array of any size from the command line, prints the array, then sorts the array in descending order and prints the array again. To run the program, call the following with any number of integer arguments:
