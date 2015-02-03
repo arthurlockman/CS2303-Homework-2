@@ -16,6 +16,7 @@ int main()
     int i; // Loop counter
     int a[SAMPLE_INT_ARRAY_SIZE]; // Sample array for demonstration
     double b[SAMPLE_INT_ARRAY_SIZE];
+    
     // Fill the array with consecutive integers
     for (i = 0; i < SAMPLE_INT_ARRAY_SIZE; i++)
     {

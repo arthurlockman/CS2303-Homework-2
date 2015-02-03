@@ -63,15 +63,15 @@ For instance, making the following call produces the following output:
 	40
 	-10
 	Sorted array:
-	-10
-	1
-	1
-	4
-	6
-	8
-	9
-	22
-	40
+    40
+    22
+    9
+    8
+    6
+    4
+    1
+    1
+    -10
 	
 ###at3
 The final executable in the project is at3. at3 is similar to at, except that it generates a random array of integers in the range of -10 to 100 with a length of 20. It then prints and sorts the array. To run the program, simply call:
@@ -81,45 +81,45 @@ The final executable in the project is at3. at3 is similar to at, except that it
 Running the program will produce output similar to the following (rand is seeded, each output will be different):
 
 	user@computer:~/cs2303assig2$ ./at3
-	Unsorted array:
-	40
-	7
-	96
-	27
-	41
-	5
-	52
-	39
-	18
-	69
-	2
-	-5
-	42
-	25
-	97
-	14
-	72
-	24
-	57
-	68
-	Sorted array:
-	-5
-	2
-	5
-	7
-	14
-	18
-	24
-	25
-	27
-	39
-	40
-	41
-	42
-	52
-	57
-	68
-	69
-	72
-	96
-	97
+    Unsorted array:
+    77
+    60
+    97
+    83
+    72
+    31
+    75
+    31
+    85
+    -3
+    97
+    57
+    37
+    90
+    55
+    62
+    1
+    95
+    22
+    99
+    Sorted array:
+    99
+    97
+    97
+    95
+    90
+    85
+    83
+    77
+    75
+    72
+    62
+    60
+    57
+    55
+    37
+    31
+    31
+    22
+    1
+    -3
